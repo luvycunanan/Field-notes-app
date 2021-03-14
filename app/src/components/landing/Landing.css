@@ -1,0 +1,79 @@
+#landingPage-css {
+  height: 100vh;
+  width: 100vw;
+  background-image: url('https://images.unsplash.com/photo-1516328155867-cfeb3c25c92a?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1350&q=80');
+
+  filter: blur(7px);
+  -webkit-filter: blur(7px);
+
+  background-size: cover;
+  background-color: none;
+  box-shadow: none;
+}
+
+.bg-text-title {
+  font-size: 70px;
+  text-shadow: 2px 2px 5px black;
+}
+
+.bg-text {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: rgba(0,0,0, 0.2);
+  color: white;
+  font-weight: bold;
+  font-size: 25px;
+  border: 1px outset #f1f1f1;
+  box-shadow: 3px 3px 15px rgba(255,255,255,0.5);
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 2;
+  width: 60%;
+  height: 40%;
+  padding: 20px;
+  text-align: center;
+}
+
+.bg-text-div {
+  position: relative;
+  display: flex;
+  flex-direction: row;
+  width: 50%;
+  align-items: center;
+  text-align: center;
+}
+
+.bg-div-text {
+  text-align: center;
+  align-self: center;
+  text-shadow: 2px 2px 5px black;
+}
+
+.bg-icon {
+  transform: rotate(-14deg);
+  color: rgba(255,255,255,0.8);
+}
+
+#landing-div-css {
+  position: relative;
+  margin: 25% auto;
+  color: aquamarine;
+}
+
+#landing-h1-css {
+  font-size: 90px;
+  color: aquamarine;
+}
+
+#landing-a-css {
+  transition: 1s;
+  color: aquamarine;
+}
+
+#landing-a-css:hover {
+  transform: rotate(-90deg)
+}

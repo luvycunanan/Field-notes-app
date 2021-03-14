@@ -1,0 +1,7 @@
+#footer-css {
+  position: relative;
+  height: 5vh;
+  padding-top: 1vh;
+  background-color: rgb(235, 235, 235);
+  bottom: 0;
+}

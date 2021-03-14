@@ -1,0 +1,9 @@
+#profile-div-css {
+  display: flex;
+  flex-direction: column;
+}
+
+#dest-col-css {
+  align-self: center;
+  margin: auto;
+}

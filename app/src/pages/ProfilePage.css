@@ -1,0 +1,29 @@
+.profile-div {
+  height: 100vh;
+  width: 100vw;
+}
+
+.bg-image {
+  background-color: rgba(255,255,255,0.9);
+  background-image: url('https://images.unsplash.com/photo-1445498059992-f5a276e1218d?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1502&q=80');
+
+  filter: blur(10px);
+  -webkit-filter: blur(10px);
+
+  height: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.contents {
+  font-weight: bold;
+  position: absolute;
+  top: 50%;
+  left: 45%;
+  transform: translate(-55%, -50%);
+  z-index: 2;
+  width: 80%;
+  padding: 20px;
+  text-align: center;
+}
