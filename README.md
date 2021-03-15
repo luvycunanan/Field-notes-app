@@ -20,19 +20,6 @@ MERN
    list, google's geocode runs and passes down 
    coordinates of the spots to google maps api which 
    then pins the spots on the map.
-   
- 
-## Screenshots
-
-### Landing Page
-![alt text](./public/landing.png)
-
-### Main page
-![alt text](./public/main.png)
-
-### Button expanded
-![alt text](./public/main-action-button.png)
-![alt text](./public/main-show-destination.png)
 
 
 ## Roadmap
