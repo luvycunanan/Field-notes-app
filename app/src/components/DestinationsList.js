@@ -16,7 +16,7 @@ import GeoCode from './google/GeoCode';
 
 import './DestinationsList.css';
 
-const URL = 'http://localhost:4000/api/destinations';
+const URL = 'https://field-notes-api.herokuapp.com/api/destinations';
 
 
 const DestinationsList = (props) => {

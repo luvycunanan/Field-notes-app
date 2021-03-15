@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import DestinationsList from '../DestinationsList';
 
-const URL = 'http://localhost:4000/api/destinations';
+const URL = 'https://field-notes-api.herokuapp.com/api/destinations';
 
 class Destination extends Component {
   state = {

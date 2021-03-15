@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import { withRouter } from 'react-router-dom';
 
-const URL = 'http://localhost:4000/api/destinations';
+const URL = 'https://field-notes-api.herokuapp.com/api/destinations';
 
 class EditDestination extends Component {
   state = {
