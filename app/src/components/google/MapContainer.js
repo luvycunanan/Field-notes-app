@@ -12,21 +12,9 @@ const MapContainer = (props) => {
     }
   }, [props.geometry])
 
-  // props.setclearmap should empty geometry
     useEffect(() => {
       setGeometry(props.clearMap)
     }, [props.clearMap])
-
-  // let initCenter = {};
-  // if (props.geometry) {
-  //   initCenter = { 
-  //     lat: props.geometry[1].lat , 
-  //     lng: props.geometry[1].lng}
-  // } else {
-  //   initCenter = { 
-  //     lat: 37.7749,
-  //   lng: -122.4194}
-  // }
 
   let initCenter = { 
     lat: 37.7749,
