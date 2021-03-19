@@ -7,12 +7,16 @@ import NewSpot from '../components/crudFunctions/NewSpot';
 import EditDestination from '../components/crudFunctions/EditDestination';
 import NewDestination from '../components/crudFunctions/NewDestination';
 import HowItWorks from '../pages/HowItWorks';
+import Signup from '../components/auth/Signup';
+import Login from '../components/auth/Login';
 
 
 
 export default (
   <Switch>
     <Route exact path='/' component={ LandingPage } />
+    <Route path='/signup' component={ Signup } />
+    <Route psth='login' component={ Login } />
     <Route path='/destinations' component={ ProfilePage } />
     <Route path='/edit-spot/:id' component={ EditSpot } />
     <Route path='/add-spot/' component={ NewSpot } />

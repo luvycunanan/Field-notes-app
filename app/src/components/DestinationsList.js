@@ -334,7 +334,7 @@ const DestinationsList = (props) => {
             </Card>
           
         <Col md={{ span: 6}}>
-          <GeoCode  destName={dest.destinationName} clearMap={clearMap} destName={dest.destinationName} spots={spots}/>
+          <GeoCode  destName={dest.destinationName} clearMap={clearMap} spots={spots}/>
         </Col>
       
     </div>
