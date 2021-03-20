@@ -1,7 +1,7 @@
 # FIELD NOTES
 
 This project is created to allow users like myself to organize their travel Itineraries.
-I mainly built this project so that I have a way of organizing my travels.
+I mainly built this project so that I have a way of organizing my travels. This is an on going project.
 
 ## Tech Stack
 
@@ -20,20 +20,14 @@ MERN
    list, google's geocode runs and passes down 
    coordinates of the spots to google maps api which 
    then pins the spots on the map.
-   
+
+
+## In the works
+
+Enabling Authentication and Authorization for user signup and login.
+Enable 3rd party API calls for geolocation and maps in the deployed version.
+
  
-## Screenshots
-
-### Landing Page
-![alt text](./public/landing.png)
-
-### Main page
-![alt text](./public/main.png)
-
-### Button expanded
-![alt text](./public/main-action-button.png)
-![alt text](./public/main-show-destination.png)
-
 
 ## Roadmap
 
