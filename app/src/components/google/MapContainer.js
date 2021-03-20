@@ -2,7 +2,7 @@ import { useEffect, useState } from 'react';
 import { Map, Marker, GoogleApiWrapper } from 'google-maps-react';
 
 const MapContainer = (props) => {
-  const [geometry, setGeometry] = useState([])
+  const [geometry, setGeometry] = useState('')
 
   useEffect (() => {
     if (props.geometry) {

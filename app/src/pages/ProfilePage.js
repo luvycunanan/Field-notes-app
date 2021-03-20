@@ -1,4 +1,3 @@
-import { Container } from 'react-bootstrap';
 import Destination from '../components/profile/Destination';
 
 import './ProfilePage.css';

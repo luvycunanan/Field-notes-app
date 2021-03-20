@@ -34,10 +34,9 @@ const Signup = () => {
       if (res.status === 200) {
         res.json();
       }
-      setErr(res.statusText);
+      return setErr(res.statusText);
     })
     .then((data) => {
-      console.log(data);
       history.push('/login');
     })
     .catch((err) => setErr(err.message))

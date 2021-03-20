@@ -12,17 +12,18 @@ import Login from '../components/auth/Login';
 
 
 
-export default (
+const Routes = ({ setToken }) => (
   <Switch>
     <Route exact path='/' component={ LandingPage } />
     <Route path='/signup' component={ Signup } />
-    <Route psth='login' component={ Login } />
+    <Route psth='/login' component={() => <Login setToken={setToken} />}  />
     <Route path='/destinations' component={ ProfilePage } />
     <Route path='/edit-spot/:id' component={ EditSpot } />
     <Route path='/add-spot/' component={ NewSpot } />
     <Route path='/edit-destination/:id' component={ EditDestination } />
     <Route path='/new-destination/' component={ NewDestination } />
     <Route path='/how-it-works/' component={ HowItWorks } />
-
   </Switch>
 );
+
+export default Routes;

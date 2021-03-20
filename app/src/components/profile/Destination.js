@@ -59,6 +59,7 @@ class Destination extends Component {
           deleteDestination={this.handleDelete}
           handleChange={this.handleChange}
         />
+        // <h2>Hello from destinations page</h2>
     )
   }
 };

@@ -6,7 +6,7 @@ import './SearchBar.css'
 const KEY = process.env.REACT_APP_API_KEY; 
 
 const GeoCode = (props) => {
-  const [results, setResults] = useState([])
+  const [results, setResults] = useState('')
 
   useEffect(() => {
     if (props.spots) {props.spots.forEach((spot) => {
@@ -15,15 +15,11 @@ const GeoCode = (props) => {
       .then((res) => res.json())
       .then((data) => {
         setResults(data.results[0].geometry.location)
-        // let prevRes = [...results]
-        // prevRes.push(data.results[0].results)
-        // setResults(prevRes)
       })
       .catch((err) => console.log(err))
     })}
   }, [props.spots])
 
-  console.log(props.destName)
   return(
     <div style={{
       position: 'relative',
