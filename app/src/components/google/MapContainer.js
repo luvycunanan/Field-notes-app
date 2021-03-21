@@ -2,7 +2,7 @@ import { useEffect, useState } from 'react';
 import { Map, Marker, GoogleApiWrapper } from 'google-maps-react';
 
 const MapContainer = (props) => {
-  const [geometry, setGeometry] = useState('')
+  const [geometry, setGeometry] = useState([])
 
   useEffect (() => {
     if (props.geometry) {
@@ -20,7 +20,6 @@ const MapContainer = (props) => {
     lat: 37.7749,
     lng: -122.4194}
     
-  console.log(geometry)
     return (
       <div>
         <Map 
@@ -49,5 +48,3 @@ const MapContainer = (props) => {
 export default GoogleApiWrapper({
   apiKey: process.env.REACT_APP_API_KEY
 })(MapContainer)
-
-// default key AIzaSyBHLett8djBo62dDXj0EjCimF8Rd6E8cxg

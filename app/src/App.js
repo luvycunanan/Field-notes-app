@@ -10,7 +10,7 @@ function App() {
   return (
     <div className="App">
         <NavBar />
-        <Routes setToken={setToken} />
+        <Routes token={token} setToken={setToken} />
     </div>
   );
 }
